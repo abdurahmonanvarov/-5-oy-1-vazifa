@@ -95,7 +95,7 @@ let arr1 = ["salom", "hayir", "nima gaplar", "tel"];
 //Masala 5: `forEach` va `map` metodlari bilan massiv elementlarini transformatsiya qilish
 //Berilgan massivdagi har bir elementni kvadratini hisoblab, bu qiymatlarni yangi massivga qo'shish uchun 
 //funksiyani yozing. So'ngra, yangi massivdagi elementlarni konsolga chiqaruvchi funksiyani yozing.
-// let arr2 = [150, 400,500, 32,34];
+let arr2 = [150, 400,500, 32,34];
 // function transformation(arr){
 //     let res = [];
 //     arr.forEach(function(valeu){
@@ -106,6 +106,17 @@ let arr1 = ["salom", "hayir", "nima gaplar", "tel"];
 //     });
 // }
 // console.log(transformation(arr2));
+
+// const res4 = (arr) =>{
+//     let reduce = [];
+//     arr.forEach(function(valeu){
+//         reduce.push(valeu**2)
+//     })
+//     return reduce.map(function(valeu){
+//         return valeu;
+//     });
+// };
+// console.log(res4(arr2));
 
 // Masala 6: `map`, `filter`, va `reduce` metodlarini birgalikda ishlatish
 // Berilgan xodimlarning maoshlarini o'z ichiga olgan massivdan faqat 2000 dan kam bo'lmagan
@@ -128,7 +139,6 @@ let arr1 = ["salom", "hayir", "nima gaplar", "tel"];
     
 // };
 // console.log(findHardworker(oylik));
-
 
 
 //Masala 7: `find`, `filter`, va `map` metodlari bilan talabalar ma'lumotlarini qayta ishlash
